@@ -1,0 +1,35 @@
+.about-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(http://splendid-procuct-card.surge.sh/shoes.png) no-repeat left;
+    background-size: 35%;
+    background-color: #f1f1f1;
+    overflow: hidden;
+    padding: 100px 0;
+}
+/* h1 {
+    background: transparent;
+} */
+.inner-container {
+    width: 55%;
+    float: right;
+    background-color: #fdfdfd;
+    padding: 150px;
+    margin-left: 500px;
+
+}
+.inner-container h1 {
+    background: transparent;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.text {
+    font-size: 15px;
+    color: #0073e6;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
