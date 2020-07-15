@@ -13,14 +13,16 @@ import About from './About'
 
 
 function App() {
+
   return (
+    
     <Grid container direction="column">
       <Grid item><Navbar /></Grid>
       <Routes>
 
         <Route path="/" element={<Home />} /> 
         <Route path="contact" element={<Contact />} />
-        <Route path="about" element={<About />} />     
+        {/* <Route path="about" element={<About />} />      */}
 
 
       </Routes>
